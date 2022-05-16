@@ -64,8 +64,8 @@ public class Juego
  */
 class Jugador{
 
-    int exitos;                   // número de partidas ganadas
-    int winTotal;
+    private int exitos;                   // número de partidas ganadas
+    private int winTotal;
 
     /**
      * Escoge piedra, papel o tijera al azar
