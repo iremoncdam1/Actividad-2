@@ -23,9 +23,9 @@ public class Juego
         {
             System.out.println("***** Ronda: " + rondasJugadas+" *********************\n");
             System.out.println("Numero de empates: "+ empates + "\n");
-            opcionJugador1=p1.opcion_al_azar();
+            opcionJugador1=p1.opcionAlAzar();
             System.out.println("Jugador 1: " + opcionJugador1+"\t Jugador 1 - Partidas ganadas: " + exitosJugador1);
-            opcionJugador2 = p2.opcion_al_azar();
+            opcionJugador2 = p2.opcionAlAzar();
             System.out.println("Jugador 2: " + opcionJugador2+"\t Jugador 2 - Partidas ganadas: " + exitosJugador2);
             
             if((opcionJugador1.equals("piedra"))&&(opcionJugador2.equals("papel")))
@@ -82,7 +82,7 @@ class Jugador{
     /**
      * Escoge piedra, papel o tijera al azar
      */
-    public String opcion_al_azar()
+    public String opcionAlAzar()
     {
         String opcion="";
         Integer c = (int)(Math.random()*3);
