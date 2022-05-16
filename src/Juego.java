@@ -65,7 +65,6 @@ public class Juego
 class Jugador{
 
     public int exitos;                   // número de partidas ganadas
-    public int winTotal;
 
     /**
      * Escoge piedra, papel o tijera al azar
@@ -87,14 +86,7 @@ class Jugador{
         }
         return opcion;
     }
-    public void setÉxitos() 
-    {
-        exitos++;
-    }
-    public int getÉxitos() 
-    {
-        return(exitos);
-    }
+
     
 
 }
